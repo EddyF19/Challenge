@@ -1,0 +1,176 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: #F3F5FC;
+}
+
+#logo
+{
+    position: absolute;
+    left: 5.7%;        
+    top: 5%;    
+    width: 2.5em;
+    display: block;
+}
+
+#textoEncriptar
+{
+    position: absolute;
+    left: 200px;
+    top: 170px;
+    width: 577px;
+    height: 40px;
+    background-color:#F3F5FC ;
+    border: 0px;
+    text-align: center;
+
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    font-size: 2em;
+    color: #0A3871;
+    /* Ingrese el texto aqui */
+
+    outline: none;
+}
+
+#textoEncriptar::placeholder
+{
+    color: #0A3871;
+}
+
+.advertencia
+{
+    position: absolute;
+    top: 75%;
+    left: 300px;
+}
+
+button#encriptar
+{
+    position: absolute;
+    top: 80%;
+    left: 300px;
+    padding: 10px;
+    border: #0A3871 solid 5px;
+    border-radius: 20px;
+    width: 225px;    
+    background-color: #0A3871;
+    color: #F3F5FC;
+
+}
+
+button#encriptar:hover
+{
+    background-color: #F3F5FC;
+    color:#0A3871;
+    font-weight: bolder;
+    border-style: dashed;
+    cursor: pointer;
+}
+
+button#desencriptar
+{
+    position: absolute;
+    top: 80%;
+    left: 575px;
+    padding: 10px;
+    border: #0A3871 solid 5px;
+    border-radius: 20px;
+    width: 225px;    
+    background-color: #D8DFE8;
+    color:  #0A3871 ;
+
+}
+
+button#desencriptar:hover
+{
+    background-color: #F3F5FC;
+    color:#0A3871;
+    font-weight: bolder;
+    border-style: dashed;
+    cursor: pointer;
+}
+
+aside
+{
+    position: absolute;    
+    width: 380px;
+    height: 800px;
+    left: 850px;        
+    top: 40px;        
+    display: block;
+    background: whitesmoke;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.5);
+    border-radius: 32px;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+footer p
+{    
+    width: 100%;
+    text-align: center;
+    border: #0A3871 solid 3px;
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 40px;
+    vertical-align: middle;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+div.div-muneco
+{
+    position: absolute;        
+    top: 18.0%;  
+    width: 100%;  
+    
+}
+
+div.div-muneco p
+{
+    text-align: center;   
+    margin-bottom: 20px; 
+}
+
+img + p
+{
+    font-size: 1.6em;
+    font-weight: bolder;    
+}
+
+aside p + p
+{
+    font-size: 1.1em;
+    font-weight: 400;
+} 
+
+#textArea
+{
+    
+    position: absolute;    
+    top: 30px;      
+    left: 19px;
+    width: 90%;      
+    margin: auto;
+    outline: none;
+    border: none;    
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    color: black;
+    display: none;
+    text-align: center;
+}
